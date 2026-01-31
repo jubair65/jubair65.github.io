@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="description" content="JavaFX Developer | CSE Student | Competitive Programmer | Java | SQL | Python">
+
+
+   <!--=============== FAVICON ===============-->
+   <link rel="shortcut icon" href="assets/img/icon_1.png" type="image/x-icon">
+
+   <!--=============== REMIXICONS ===============-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="assets/css/styles.css">
+
+   <title>Portfolio Website Jubair</title>
+</head>
+
+<body>
+   <!--==================== HEADER ====================-->
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="#" class="nav__logo">Jubair</a>
+
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li>
+                  <a href="#home" class="nav__link active-link">Home</a>
+               </li>
+
+               <li>
+                  <a href="#about" class="nav__link">About</a>
+               </li>
+
+               <li>
+                  <a href="#projects" class="nav__link">Projects</a>
+               </li>
+
+               <li>
+                  <a href="#resume" class="nav__link">Resume</a>
+               </li>
+
+               <li>
+                  <a href="#contact" class="nav__link">Contact</a>
+               </li>
+
+            </ul>
+
+            <!-- Close Button -->
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-large-line"></i>
+            </div>
+         </div>
+
+         <!--Toggle Menu  -->
+         <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+         </div>
+      </nav>
+   </header>
+
+   <!--==================== MAIN ====================-->
+   <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+         <div class="home__container container grid">
+            <div class="home__content">
+               <div class="home__image">
+                  <img src="assets/img/profile-1.png" alt="image" class="home__img">
+               </div>
+
+               <div class="home__social">
+                  <a href="https://www.linkedin.com/in/md-jubair-bin-hasan-b56381317/" target="_blank"
+                     class="home__link">
+                     <i class="ri-linkedin-box-fill"></i>
+                  </a>
+
+                  <a href="https://github.com/jubair65" target="_blank" class="home__link">
+                     <i class="ri-github-fill"></i>
+                  </a>
+
+                  <a href="https://www.facebook.com/jubair.binhasan.5/" target="_blank" class="home__link">
+                     <i class="ri-facebook-fill"></i>
+                  </a>
+
+
+               </div>
+            </div>
+
+            <div class="home__data grid">
+               <p class="home__subtitle">
+                  <!-- * Insert the professions into the js file (HOME TYPED JS), then save. -->
+                  Hi, I'm a <span id="home-typed"></span>
+               </p>
+
+               <h1 class="home__title">Jubair Bin Hasan</h1>
+
+               <p class="home__description">
+                  Computer Science Engineering student, passionate about problem solving, with experience in C/C++, Java,
+                  and learning Python.
+                  Focused on building efficient applications and projects using JavaFX and Database Management Systems.
+                  Always learning
+                  and improving to create impactful software solutions.
+               </p>
+
+               <div class="home__button">
+                  <a href="assets/pdf/Resume_Jubair.pdf" download="" target="_blank" class="button">Download CV</a>
+                  <a href="#projects" class="button button__ghost">Projects</a>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+         <div class="about__container container grid">
+            <div class="about__content">
+               <div class="about__data">
+                  <h2 class="section__title">About Me</h2>
+
+                  <p class="about__description">
+                     I am a Computer Science and Engineering undergraduate with a strong passion for software
+                     engineering, system design, and
+                     problem solving. I enjoy turning ideas into efficient, scalable solutions and continuously
+                     improving my skills through
+                     hands-on projects and competitive programming.
+                  </p>
+
+                  <a href="#contact" class="button button__ghost">Contact Me</a>
+               </div>
+
+               <div class="about__skills">
+                  <h3 class="about__subtitle">
+                     <i class="ri-bookmark-3-fill"></i>
+                     <span>Skills</span>
+                  </h3>
+
+                  <ul class="about__items">
+                     <li class="about__item">C/C++</li>
+                     <li class="about__item">Java(OOP)</li>
+                     <li class="about__item">Python(Basic)</li>
+                     <li class="about__item">HTML</li>
+                     <li class="about__item">CSS</li>
+                     <li class="about__item">SQL</li>
+                     <li class="about__item">Competitive Programming</li>
+                     <li class="about__item">Adobe Photoshop</li>
+                     <li class="about__item">MS Office</li>
+                  </ul>
+               </div>
+            </div>
+
+            <div class="about__image">
+               <img src="assets/img/profile-1.png" alt="image" class="about__img">
+            </div>
+         </div>
+      </section>
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="projects">
+         <h2 class="section__title">Projects</h2>
+
+         <div class="projects__container container grid">
+            <article class="projects__card">
+               <img src="assets/img/Project-10.png" alt="image" class="projects_img">
+
+               <div class="projects__data">
+                  <h3 class="projects__title">Library Management System</h3>
+                  <p class="projects__description">A JavaFX-based desktop application for managing books, members, and
+                     circulation with validation, alerts, and dynamic
+                     TableView updates.</p>
+                  <a href="https://github.com/jubair65/Library-Management-System" target="_blank"
+                     class="button button__ghost">View Project</a>
+               </div>
+            </article>
+
+            <article class="projects__card">
+               <img src="assets/img/project-11.png" alt="image" class="projects_img">
+
+               <div class="projects__data">
+                  <h3 class="projects__title">Carpool Management System</h3>
+                  <p class="projects__description">A database-driven system designed using ER modeling and SQL to manage
+                     users, rides, payments, and reports efficiently.</p>
+                  <a href="https://github.com/jubair65/Carpool-Management-System-DBMS" target="_blank"
+                     class="button button__ghost">View Project</a>
+               </div>
+            </article>
+         </div>
+      </section>
+
+      <!--==================== RESUME ====================-->
+      <section class="resume section" id="resume">
+         <h2 class="section__title">My Resume</h2>
+
+         <div class="resume__container container grid">
+            <div class="resume__content grid">
+               <h3 class="resume__subtitle">
+                  <i class="ri-award-fill"></i>
+                  <span>Experience</span>
+               </h3>
+
+               <div class="resume__list grid">
+                  <div class="resume__data">
+                     <h3 class="resume__title">Software Development Experience</h3>
+
+                     <div class="resume__info">
+                        <address>Java</address>
+                        <address>JavaFX</address>
+                     </div>
+
+                     <p class="resume__description">Developed a desktop application with CRUD operations, TableView
+                        integration, form validation, and dynamic UI updates.</p>
+                  </div>
+
+                  <div class="resume__data">
+                     <h3 class="resume__title">Carpool Management System - Database Project</h3>
+
+                     <div class="resume__info">
+                        <address>Microsoft SQL Server</address>
+
+                     </div>
+
+                     <p class="resume__description">Designed a normalized relational database with primary/foreign keys,
+                        constraints, and optimized queries.</p>
+                  </div>
+
+                  <!-- <div class="resume__data">
+                     <h3 class="resume__title">Competitive Programming</h3>
+
+                     <div class="resume__info">
+                        <address>Codeforces</address>
+                        <address>CodeChef</address>
+                        <address>Beecrowd</address>
+                     </div>
+
+                     <p class="resume__description">Solved algorithmic problems across multiple online judges,
+                        strengthening data structures, algorithms, and
+                        problem-solving skills.</p>
+                  </div> -->
+
+               </div>
+            </div>
+
+            <!-- new achievements section -->
+            
+            <div class="resume__content grid">
+               <h3 class="resume__subtitle">
+                  <i class="ri-medal-line"></i>
+                  <span>Achievements</span>
+               </h3>
+            
+               <div class="resume__list grid">
+                  <div class="resume__data">
+                     <h3 class="resume__title">University Honors</h3>
+                     <p class="resume__description">
+                        Recipient of the <strong>VC Award</strong> and <strong>Dean's Award</strong> for consistent academic
+                        excellence at UAP.
+                     </p>
+                  </div>
+            
+                  <div class="resume__data">
+                     <h3 class="resume__title">Competitive Programming</h3>
+                     <p class="resume__description">
+                        Achieved a <strong>900+ Rating on Codeforces</strong> and actively participate in CodeChef and Codeforces
+                        contests.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            
+
+            <div class="resume__content grid">
+               <h3 class="resume__subtitle">
+                  <i class="ri-graduation-cap-fill"></i>
+                  <span>Education</span>
+               </h3>
+
+               <div class="resume__list grid">
+                  <div class="resume__data">
+                     <h3 class="resume__title">BSc in Computer Science & Engineering</h3>
+
+                     <div class="resume__info">
+                        <address>University of Asia Pacific (UAP)</address>
+                        <address>Completed 2nd Year</address>
+                     </div>
+
+                     <p class="resume__description">Undergraduate CSE student with a strong foundation in programming
+                        and software development.</p>
+                  </div>
+
+                  <div class="resume__data">
+                     <h3 class="resume__title">Higher Secondary Certificate (HSC)</h3>
+
+                     <div class="resume__info">
+                        <address>Islamia Government High School, Sirajganj</address>
+                     </div>
+
+                     <p class="resume__description">Achieved GPA 5.00, demonstrating strong academic performance.</p>
+                  </div>
+
+                  <!-- <div class="resume__data">
+                     <h3 class="resume__title">Secondary School Certificate (SSC)</h3>
+
+                     <div class="resume__info">
+                        <address>B.L Government High School, Sirajganj</address>
+                     </div>
+
+                     <p class="resume__description">Achieved GPA 5.00 with excellent results in science subjects.</p>
+                  </div> -->
+
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+         <h2 class="section__title">Contact Me</h2>
+
+         <div class="contact__container container grid">
+            <form action="" class="contact__form grid" id="contact-form">
+               <input type="text" placeholder="Name" name="user_name" required class="contact__input">
+               <input type="email" placeholder="Email" name="user_email" required class="contact__input">
+               <textarea placeholder="Message" name="user_message" required
+                  class="contact__input contact__area"></textarea>
+
+               <button type="submit" class="button">Send Message</button>
+
+               <p class="contact__message" id="contact-message"></p>
+            </form>
+
+            <div class="contact__content grid">
+               <div class="contact__data grid">
+                  <address class="contact__address">
+                     <i class="ri-mail-fill"></i>
+                     <span>23201065@uap-bd.edu</span>
+                  </address>
+
+                  <address class="contact__address">
+                     <i class="ri-smartphone-fill"></i>
+                     <span>+8801519605781</span>
+                  </address>
+
+                  <address class="contact__address">
+                     <i class="ri-map-pin-2-fill"></i>
+                     <span>Dhaka,Bangladesh</span>
+                  </address>
+
+                  <!-- <address class="contact__address">
+                     <i class="ri-time-fill"></i>
+                     <span>Available: Mon-Fri, 9AM-6PM</span>
+                  </address> -->
+               </div>
+
+               <div class="contact__social">
+                  <a href="https://api.whatsapp.com/send/?phone=%2B8801793619087&text=Hello, more information" target="_blank" class="contact__link">
+                     <i class="ri-whatsapp-fill"></i>
+                  </a>
+
+                  <a href="https://www.facebook.com/jubair.binhasan.5/" target="_blank" class="contact__link">
+                  <i class="ri-messenger-fill"></i>
+                  </a>
+
+                  <a href="https://t.me/hey_jubair" target="_blank" class="contact__link">
+                  <i class="ri-telegram-fill"></i>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+
+   <!--==================== FOOTER ====================-->
+   <footer class="footer">
+      <div class="footer__container container grid">
+         <a href="#" class="footer__logo">Jubair</a>
+
+         <div class="footer__links">
+            <a href="#home" class="footer__link">Home</a>
+
+            <a href="#about" class="footer__link">About</a>
+            
+            <a href="#projects" class="footer__link">Projects</a>
+         </div>
+
+         <div class="footer__social">
+            <a href="https://www.facebook.com/jubair.binhasan.5/" target="_blank" class="footer__social-link">
+               <i class="ri-facebook-circle-fill"></i>
+            </a>
+
+            <a href="https://www.instagram.com/jubairr___" target="_blank" class="footer__social-link">
+               <i class="ri-instagram-fill"></i>
+            </a>
+
+            <a href="https://x.com/" target="_blank" class="footer__social-link">
+               <i class="ri-twitter-x-fill"></i>
+            </a>
+
+            <a href="https://www.youtube.com/" target="_blank" class="footer__social-link">
+               <i class="ri-youtube-fill"></i>
+            </a>
+         </div>
+
+      </div>
+
+      <span class="footer__copy">
+         © 2026 Jubair Bin Hasan
+      </span>
+   </footer>
+
+   <!--========== SCROLL UP ==========-->
+   <a href="" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+   </a>
+
+   <!--=============== SCROLLREVEAL ===============-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+
+   <!--=============== TYPED JS ===============-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.min.js"></script>
+
+   <!--=============== EMAIL JS ===============-->
+   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+   <!--=============== MAIN JS ===============-->
+   <script src="assets/js/main.js"></script>
+</body>
+
+</html>
