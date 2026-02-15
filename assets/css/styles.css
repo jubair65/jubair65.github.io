@@ -511,6 +511,16 @@ transition: color .4s, width .4s;
   font-style: initial;
 }
 
+.resume__link {
+  color: var(--first-color);
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+}
+
+
+
+
 /*=============== CONTACT ===============*/
 .contact__container{
   row-gap: 4rem;
